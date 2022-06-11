@@ -156,7 +156,7 @@ def update_figures(start_date_selected, end_date_selected, social_networks_selec
 ################################################################################################
         twitch_visit = (
         df
-        .loc[(df.social_network == 'twitch') &
+        .loc[(df.social_network == 'Twitch') &
              (df.social_network.isin(social_networks_selected)) &
              (df.device.isin(devices_selected)) &
              (df.datetime >= start_date_selected) &

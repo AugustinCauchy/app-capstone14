@@ -108,7 +108,7 @@ app.layout = html.Div([
     Output('instagram-visit', 'children'),
     Output('twitter-visit', 'children'),
     #AQUÍ METO MANO TAMBIÉN
-    #Output('twitch-visit', 'children'),
+    Output('twitch-visit', 'children'),
     Output('total-visit-line', 'figure'),
     Output('total-visit-social-networks-line', 'figure'),
     Output('world-map', 'figure'),
